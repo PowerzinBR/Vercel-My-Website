@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=M+PLUS+Rounded+1c:wght@500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@400;500;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans Mono', Poppins, Montserrat, sans-serif;
+    background-color: #212327;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid.flex-column h1 {
+    /* >> fontes << */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    /* >> outros << */
+    border-radius: 15px;
+    background-color: #2a2d32;
+    margin: 0;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: inline-block, flex;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+a {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 600;
+    /* >> centralizando << */
+    color: #7ff;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out forwards, font-size 0.3s ease-in-out forwards;
+}
+
+a:hover {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    /* >> centralizando << */
+    color: rgb(255, 255, 255);
+}
+
+img {
+    margin-top: 6px;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2px;
+    display: inline-block;
+    color: #fff;
+    transform: rotate(-0deg);
+}
+
+.logo:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 2px;
+    transform: rotate(-2deg);
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+li {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    /* >> outros << */
+    list-style: none;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+li:hover {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 400;
+    color: #7ff;
+    /* >> outros << */
+    list-style: none;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.grid.flex-column-two h1 {
+    /* >> fontes << */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    /* >> outros << */
+    border-radius: 15px;
+    background-color: #2a2d32;
+    margin: 0;
+    margin-top: 10px;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: inline-block, flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid.flex-column-two h1:hover {
+    /* >> fontes << */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    color: #7ff;
+    /* >> outros << */
+    border-radius: 15px;
+    background-color: #2a2d32;
+    margin: 0;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: inline-block, flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid.flex-column h1:hover {
+    /* >> fontes << */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    color: #7ff;
+    /* >> outros << */
+    border-radius: 15px;
+    background-color: #2a2d32;
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+    /* >> centralizando << */
+    align-items: center;
+    justify-content: center;
+    display: inline-block, flex;
+    text-align: center;
+    padding: 10px;
+}
+
+
